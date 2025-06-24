@@ -2,7 +2,9 @@
 Script to run the training pipeline for the model.
 """
 
-from src.data.module.lr import main
+from src.data.module.random_forest import main
+
+
 
 
 processed_columns = [
@@ -28,7 +30,7 @@ processed_columns = [
 ]
 
 if __name__ == "__main__":
-    file_path = "data/processed/train.csv"
+    file_path = "data/raw/processed/train.csv"
     target_column = "Sales"
 
     print("🚀 Running training pipeline...")
