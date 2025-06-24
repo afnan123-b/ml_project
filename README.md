@@ -1,2 +1,3 @@
-# ml_project
-this e2e project
+python -m venv .venv/
+.venv\Scripts\activate
+pip install -r requirements.txt

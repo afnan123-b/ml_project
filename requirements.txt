@@ -1,0 +1,6 @@
+pandas== 2.3.0
+matplotlib
+ipykernel
+seaborn==0.13.2
+category_encoders==2.4.0
+scikit-learn==1.4.2
